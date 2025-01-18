@@ -1,0 +1,23 @@
+.btnGoBack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 1px solid blue;
+  border-radius: 8px;
+  background-color: inherit;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 15px;
+  width: 260px;
+ 
+}
+
+.btnGoBack:hover {
+  color: blue;
+  box-shadow: 2px 2px 4px 1px blue;
+}
+
+.wrapper {
+  padding: 0 15px;
+}

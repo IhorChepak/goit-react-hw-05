@@ -1,0 +1,26 @@
+.movies_list {
+  display: block;
+  padding: 15px 20px 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: large;
+  font-weight: 600;
+}
+
+
+.link {
+  color: #010101;
+  transition: color 200ms ease-in-out;
+}
+
+.link:hover {
+  color: blue;
+}
+
+.link:active {
+  color: yellow;
+}

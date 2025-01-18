@@ -1,0 +1,40 @@
+.wrapper {
+  padding-left: 15px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.input {
+  background-color: inherit;
+  border: 1px solid #999999;
+  border-radius: 8px 0 0 8px;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px 10px;
+  height: 25px;
+  width: 350px;
+}
+
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 20px 10px;
+  border: 1px solid blue;
+  border-radius: 0 8px 8px 0;
+  background-color: inherit;
+  color: #000;
+  font-weight: 600;
+  transition: color 250ms ease-in-out, box-shadow 250ms ease-in-out;
+}
+
+button:hover {
+  color: blue;
+  box-shadow: 2px 2px 4px 1px blue;
+}
